@@ -18,3 +18,9 @@ section{
   background-color: coral;
   border:1px solid black;
 }
+
+footer{
+  height:400px;
+  background-color: darkblue;
+  border:1px solid black;
+}
