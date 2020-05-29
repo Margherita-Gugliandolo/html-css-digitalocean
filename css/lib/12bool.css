@@ -11,6 +11,7 @@
 
 [class*="col-"] {
   float:left;
+  padding: 20px 0;
 }
 
 
