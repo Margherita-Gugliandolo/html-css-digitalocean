@@ -29,6 +29,13 @@ h1{
   padding:0 3%;
 }
 
+h2{
+  font-size: 30px;
+  color:#2c3e50;
+  text-align: center;
+  padding: 5px 0;
+}
+
 h3{
   font-size: 24px;
   color:#fff;
@@ -46,10 +53,20 @@ h4{
   padding-top: 5%;
 }
 
-p, #menu-centrale{
+p, #menu-centrale, #sezione-loghi p{
   text-align: center;
 }
 
+/* Testi e link più piccoli */
+.text-small{
+  font-size: 14px;
+  color:#2c3e50;
+}
+
+.link-small{
+  font-size: 14px;
+  color: #0569fb;
+}
 /* nav-menu fisso */
 #menu-fixed{
   background-color: #fff;
@@ -63,20 +80,25 @@ p, #menu-centrale{
   border-color: rgba(124, 152, 182, 0.2);
 }
 
+#menu-fixed a i{
+  margin-left: 5px;
+}
+
 #logo{
 max-width:200px;
 }
 
 
-li{
+#menu-fixed li{
   display: inline-block;
   margin-left: 15px;
 }
 
-a{
+#menu-fixed a{
   text-decoration: none;
   font-size: 18px;
   color:#767f9d;
+  margin-right: 10px;
 }
 .fas{
   width:30px;
@@ -88,14 +110,17 @@ a{
 
 /* Bottoni */
 .button{
-  border:1px solid #0569fb;
+  border:2px solid #0569fb;
   padding:10px 15px;
   border-radius: 5px;
+}
+#menu-destra .button{
   color: #0569fb;
 }
-.button:hover{
+
+#menu-destra .button:hover{
   background-color: #0569fb;
-  color: #fff;
+  color:#fff;
 }
 
 /* Jumbo*/
@@ -152,30 +177,26 @@ a{
 .create-account{
   color: #fff;
   font-size: 18px;
+  text-decoration: none;
 }
 #sign-google{
   font-size: 18px;
   text-align: left;
   margin:auto;
-  margin-top: 10px;
+  margin-top: 15px;
   box-shadow: 2px 2px 1px #dedede;
   border:none;
+}
+
+#sign-google a{
+  text-decoration: none;
+  color: grey;
+  font-size: 14px;
 }
 
 .fa-google{
   margin-right: 25%;
   color: red;
-}
-
-/* Testi e link più piccoli */
-.text-small{
-  font-size: 14px;
-  color:#2c3e50;
-}
-
-.link-small{
-  font-size: 14px;
-  color: #0569fb;
 }
 
 
@@ -186,15 +207,70 @@ a{
   text-align: center;
 }
 
+#sezione-loghi p{
+  color:grey;
+}
+
+#sezione-loghi a{
+  text-decoration: none;
+  font-size: 16px;
+  color: #0569fb;
+  margin-left: 40%;
+}
+
+#sezione-loghi i{
+  font-size: 10px;
+  margin-left: 5px;
+}
+/* sezione Deploy */
+
+#deploy p{
+  font-size: 18px;
+  color:#767f9d;
+  text-align: center;
+  padding:2% 10%;
+}
+
+#deploy nav{
+  border-left:2px solid lightgrey;
+}
+
+#deploy li{
+  padding: 10px 5px;
+  list-style: none;
+}
+#deploy a{
+  text-decoration: none;
+  font-size: 16px;
+  color:#767f9d;
+}
+
+#icone .row, #icone [class*="col-"]{
+  padding:0;
+}
+
+#icone p{
+  font-size: 16px;
+  text-align: left;
+  padding:10px 0;
+  padding-right: 10px;
+  margin-bottom: 15px;
+}
+
+#icone img{
+  margin-bottom: 20px;
+}
+
+
 /* regole di debug */
 
 section{
   width:100%;
 }
 
-[class*="col-"]{
+/* [class*="col-"]{
   border:1px solid black;
-}
+} */
 
 footer{
   background-color: #0e1e42;

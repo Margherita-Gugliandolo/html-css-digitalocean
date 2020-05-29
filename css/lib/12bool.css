@@ -18,7 +18,7 @@
 /* regole divisione colonna xs */
 @media all and (max-width:768px){
 
- .col-xs-5 li{
+ #menu-fixed [class*="col-xs"] li{
   display:none;
 }
 
@@ -106,7 +106,7 @@ width: calc((100% /12) * 10);
 /* grglia md */
 @media all and (min-width:769px) and (max-width:992px){
 
-.col-md-5 li{
+#menu-fixed [class*="col-md"] li{
   display: none;
 }
 
