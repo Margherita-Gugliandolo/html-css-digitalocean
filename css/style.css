@@ -15,10 +15,6 @@
   background-color: #f3f5f9;
 }
 
-.back-blue{
-  background-color: #0569fb;
-}
-
 /* Regole Stile Testo */
 
 h1{
@@ -300,6 +296,37 @@ max-width:200px;
 
 #features a{
   margin-left: 0;
+}
+
+/* sezione Tabelle */
+
+#tabella{
+  background-image: linear-gradient(to right, #112455 , #1b37bb);
+}
+#tabella h2, th{
+  color:#fff;
+}
+
+th{
+  font-size: 12px;
+  padding:10px 0;
+}
+th:nth-child(2){
+  color: rgba(255, 255, 255, 0.5);
+}
+
+table{
+  width:100%;
+  border-bottom: 1px solid #fff;
+}
+
+table:last-child{
+  border: none;
+}
+
+th a{
+  text-decoration: none;
+  color:#67d8d3;
 }
 
 /* regole di debug */
