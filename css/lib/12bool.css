@@ -1,7 +1,6 @@
 .container{
-  max-width: 1200px;
+  max-width: 1150px;
   margin:auto;
-  text-align: center;
 }
 
 .row::after{
@@ -17,6 +16,15 @@
 
 /* regole divisione colonna xs */
 @media all and (max-width:768px){
+
+ .col-xs-5 li{
+  display:none;
+}
+
+.col-xs-5 #hamburger{
+  display: block;
+}
+
 .col-xs-1{
   width: calc((100% /12) * 1);
 }
@@ -96,6 +104,15 @@ width: calc((100% /12) * 10);
 
 /* grglia md */
 @media all and (min-width:769px) and (max-width:992px){
+
+.col-md-5 li{
+  display: none;
+}
+
+.col-md-5 #hamburger{
+  display: block;
+}
+
 .col-md-1{
   width: calc((100% /12) * 1);
 }
@@ -175,6 +192,10 @@ width: calc((100% /12) * 10);
 
 /* regole deckstop */
 @media all and (min-width:993px) {
+
+.col-lg-4 #hamburger{
+    display: none;
+  }
 
 .col-lg-1{
   width: calc((100% /12) * 1);
