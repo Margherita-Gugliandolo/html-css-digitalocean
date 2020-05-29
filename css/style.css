@@ -222,9 +222,10 @@ max-width:200px;
   font-size: 10px;
   margin-left: 5px;
 }
+
 /* sezione Deploy */
 
-#deploy p{
+#deploy p, #designed-developer p{
   font-size: 18px;
   color:#767f9d;
   text-align: center;
@@ -261,6 +262,25 @@ max-width:200px;
   margin-bottom: 20px;
 }
 
+/* sezione Designed for Developer */
+
+.carousel{
+  width: 70%;
+  padding-left: 25%;
+}
+
+.fa-chevron-left{
+  color:grey;
+}
+
+
+.fa-chevron-right{
+  float: right;
+}
+
+.fa-chevron-left, .fa-chevron-right{
+  font-size: 32px;
+}
 
 /* regole di debug */
 
@@ -268,9 +288,9 @@ section{
   width:100%;
 }
 
-/* [class*="col-"]{
+[class*="col-"]{
   border:1px solid black;
-} */
+}
 
 footer{
   background-color: #0e1e42;
