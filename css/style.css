@@ -7,9 +7,6 @@
 .navdx{
   float:right;
 }
-.row{
-  padding:20px 0;
-}
 
 .back-grey{
   background-color: #f3f5f9;
@@ -90,7 +87,7 @@ max-width:200px;
   margin-left: 15px;
 }
 
-#menu-fixed a{
+#menu-fixed a, #get-started a{
   text-decoration: none;
   font-size: 18px;
   color:#767f9d;
@@ -114,7 +111,7 @@ max-width:200px;
   color: #0569fb;
 }
 
-#menu-destra .button:hover{
+#menu-destra .button:hover, #get-started .button:hover{
   background-color: #0569fb;
   color:#fff;
 }
@@ -236,7 +233,7 @@ max-width:200px;
   padding: 10px 5px;
   list-style: none;
 }
-#deploy a{
+#deploy a, footer a{
   text-decoration: none;
   font-size: 16px;
   color:#767f9d;
@@ -300,10 +297,10 @@ max-width:200px;
 
 /* sezione Tabelle */
 
-#tabella{
+#tabella, #get-started{
   background-image: linear-gradient(to right, #112455 , #1b37bb);
 }
-#tabella h2, th{
+#tabella h2, th, #get-started h2{
   color:#fff;
 }
 
@@ -328,6 +325,59 @@ th a{
   text-decoration: none;
   color:#67d8d3;
 }
+/* Sezione Get Started */
+
+#get-started{
+  padding:50px 0;
+}
+
+#get-started a{
+  background-color: #fff;
+  border:none;
+  color:#0468fb;
+}
+
+.starded{
+  padding:15px 0;
+}
+
+#get-started .row{
+  padding: 0;
+}
+
+/* Footer */
+footer{
+  background-color: #0e1e42;
+}
+
+footer li{
+  list-style: none;
+  padding: 5px;
+}
+
+footer a:hover{
+  color:#fff;
+}
+
+footer i{
+  font-size:20px;
+  margin-top: 20px;
+}
+
+#copy{
+  padding-top:10px;
+  color:#767f9d;
+}
+
+footer .social i{
+  width:20px;
+  margin-left: 10px;
+}
+
+#footer [class*="col-"]{
+  padding:0;
+}
+
 
 /* regole di debug */
 
@@ -338,8 +388,3 @@ section{
 /* [class*="col-"]{
   border:1px solid black;
 } */
-
-footer{
-  background-color: #0e1e42;
-  border:1px solid black;
-}
