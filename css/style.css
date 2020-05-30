@@ -91,8 +91,8 @@ max-width:200px;
   text-decoration: none;
   font-size: 18px;
   color:#767f9d;
-  margin-right: 10px;
 }
+
 .fas{
   width:30px;
 }
@@ -258,25 +258,30 @@ max-width:200px;
 /* sezione Designed for Developer */
 
 .carousel{
-  width: 70%;
-  padding-left: 25%;
+  width: 90%;
+  margin:auto;
+  /* padding-left: 25%; */
 }
-
 .fa-chevron-left{
   color:grey;
+  float:left;
+  padding-left: 0;
 }
 
-
 .fa-chevron-right{
+  color:#000;
   float: right;
+  padding-left: 10px;
 }
 
 .fa-chevron-left, .fa-chevron-right{
+  width:5%;
   font-size: 32px;
+  padding-top: 25%;
 }
 
 .fa-circle{
-  font-size: 14px;
+  font-size: 12px;
   color: #0569fb;
 }
 
@@ -308,8 +313,19 @@ th{
   font-size: 12px;
   padding:10px 0;
 }
+
+th:first-child{
+  width:15%;
+}
+
 th:nth-child(2){
+  text-align: left;
   color: rgba(255, 255, 255, 0.5);
+}
+
+th:last-child{
+  text-align: right;
+  padding-right: 2%;
 }
 
 table{
@@ -337,12 +353,8 @@ th a{
   color:#0468fb;
 }
 
-.starded{
-  padding:15px 0;
-}
-
-#get-started .row{
-  padding: 0;
+#started{
+  padding-left: 35%;
 }
 
 /* Footer */
@@ -377,7 +389,6 @@ footer .social i{
 #footer [class*="col-"]{
   padding:0;
 }
-
 
 /* regole di debug */
 
