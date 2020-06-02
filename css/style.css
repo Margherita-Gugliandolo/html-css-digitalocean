@@ -7,13 +7,11 @@
 .navdx{
   float:right;
 }
-
 .back-grey{
   background-color: #f3f5f9;
 }
 
 /* Regole Stile Testo */
-
 h1{
   font-size: 60px;
   color:#fff;
@@ -21,14 +19,12 @@ h1{
   letter-spacing: 2px;
   padding:0 3%;
 }
-
 h2{
   font-size: 30px;
   color:#2c3e50;
   text-align: center;
   padding: 5px 0;
 }
-
 h3{
   font-size: 24px;
   color:#fff;
@@ -37,7 +33,6 @@ h3{
   letter-spacing: 2px;
   padding:0 3%;
 }
-
 h4{
   text-align: center;
   font-size: 22px;
@@ -45,7 +40,6 @@ h4{
   color:#2c3e50;
   padding-top: 5%;
 }
-
 p, #menu-centrale, #sezione-loghi p{
   text-align: center;
 }
@@ -55,48 +49,43 @@ p, #menu-centrale, #sezione-loghi p{
   font-size: 14px;
   color:#2c3e50;
 }
-
 .link-small{
   font-size: 14px;
   color: #0569fb;
 }
+
 /* nav-menu fisso */
 #menu-fixed{
   background-color: #fff;
   position:fixed;
   z-index: 999;
   width:100%;
-  height:80px;
+  height:90px;
   top:0;
   left:0;
-  border-bottom: 1px solid;
-  border-color: rgba(124, 152, 182, 0.2);
 }
-
-#menu-fixed a i{
-  margin-left: 5px;
-}
-
-#logo{
-max-width:200px;
-}
-
-
 #menu-fixed li{
   display: inline-block;
   margin-left: 15px;
 }
-
+#menu-fixed a{
+  line-height: 50px;
+}
+#menu-fixed a i{
+  margin-left: 5px;
+}
+#logo{
+max-width:200px;
+margin-top: 10px;
+}
 #menu-fixed a, #get-started a{
   text-decoration: none;
   font-size: 18px;
   color:#767f9d;
 }
-
 .fas{
   width:30px;
 }
-
 .fa-bars, #sign-in h4 span{
   color: #0569fb;
 }
@@ -110,14 +99,12 @@ max-width:200px;
 #menu-destra .button{
   color: #0569fb;
 }
-
 #menu-destra .button:hover, #get-started .button:hover{
   background-color: #0569fb;
   color:#fff;
 }
 
 /* Jumbo*/
-
 #jumbotron{
   height:100%;
   padding-top: 10%;
@@ -125,13 +112,10 @@ max-width:200px;
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
-
 }
-
 #jumbotron .row{
   padding: 150px 0;
 }
-
 
 /* modulo di iscrizione */
 #sign-in{
@@ -148,7 +132,6 @@ max-width:200px;
   text-align: center;
   padding: 5px 0;
 }
-
 .input{
   width:90%;
   line-height: 20px;
@@ -157,7 +140,6 @@ max-width:200px;
   border-radius: 5px;
   border:2px solid #dedede;
 }
-
 #create-account{
   background-color: #4f95f7;
   text-align: center;
@@ -166,7 +148,6 @@ max-width:200px;
   margin: auto;
   border-radius: 5px;
 }
-
 .create-account{
   color: #fff;
   font-size: 18px;
@@ -180,18 +161,15 @@ max-width:200px;
   box-shadow: 2px 2px 1px #dedede;
   border:none;
 }
-
 #sign-google a{
   text-decoration: none;
   color: grey;
   font-size: 14px;
 }
-
 .fa-google{
   margin-right: 25%;
   color: red;
 }
-
 
 /* Sezione Loghi */
 .logo-partner{
@@ -199,36 +177,30 @@ max-width:200px;
   display: inline-block;
   text-align: center;
 }
-
 #sezione-loghi p{
   color:grey;
 }
-
 #sezione-loghi a, #features a{
   text-decoration: none;
   font-size: 16px;
   color: #0569fb;
   margin-left: 40%;
 }
-
 #sezione-loghi i, #features i{
   font-size: 10px;
   margin-left: 5px;
 }
 
 /* sezione Deploy */
-
 #deploy p, #designed-developer p{
   font-size: 18px;
   color:#767f9d;
   text-align: center;
   padding:2% 10%;
 }
-
 #deploy nav{
   border-left:2px solid lightgrey;
 }
-
 #deploy li{
   padding: 10px 5px;
   list-style: none;
@@ -238,11 +210,9 @@ max-width:200px;
   font-size: 16px;
   color:#767f9d;
 }
-
 #icone .row, #icone [class*="col-"]{
   padding:0;
 }
-
 #icone p, #features p{
   font-size: 16px;
   text-align: left;
@@ -250,13 +220,11 @@ max-width:200px;
   padding-right: 10px;
   margin-bottom: 15px;
 }
-
 #icone img, #features img{
   margin-bottom: 20px;
 }
 
 /* sezione Designed for Developer */
-
 .carousel{
   width: 90%;
   margin:auto;
@@ -267,92 +235,76 @@ max-width:200px;
   float:left;
   padding-left: 0;
 }
-
 .fa-chevron-right{
   color:#000;
   float: right;
   padding-left: 10px;
 }
-
 .fa-chevron-left, .fa-chevron-right{
   width:5%;
   font-size: 32px;
   padding-top: 25%;
 }
-
 .fa-circle{
   font-size: 12px;
   color: #0569fb;
 }
-
 .uno{
   font-weight: bold;
   margin-left: 47%;
 }
 
 /* Sezione Features */
-
 #features p{
   color: #767f9d;
 }
-
 #features a{
   margin-left: 0;
 }
 
 /* sezione Tabelle */
-
 #tabella, #get-started{
   background-image: linear-gradient(to right, #112455 , #1b37bb);
 }
 #tabella h2, th, #get-started h2{
   color:#fff;
 }
-
 th{
   font-size: 12px;
   padding:10px 0;
 }
-
 th:first-child{
   width:15%;
 }
-
 th:nth-child(2){
   text-align: left;
   color: rgba(255, 255, 255, 0.5);
 }
-
 th:last-child{
   text-align: right;
   padding-right: 2%;
 }
-
 table{
   width:100%;
   border-bottom: 1px solid #fff;
 }
-
 table:last-child{
   border: none;
 }
-
 th a{
   text-decoration: none;
   color:#67d8d3;
 }
-/* Sezione Get Started */
 
+/* Sezione Get Started */
 #get-started{
   padding:50px 0;
 }
-
 #get-started a{
   background-color: #fff;
   border:none;
   color:#0468fb;
 }
-
 #started{
   padding-left: 35%;
 }
@@ -361,41 +313,25 @@ th a{
 footer{
   background-color: #0e1e42;
 }
-
 footer li{
   list-style: none;
   padding: 5px;
 }
-
 footer a:hover{
   color:#fff;
 }
-
 footer i{
   font-size:20px;
   margin-top: 20px;
 }
-
 #copy{
   padding-top:10px;
   color:#767f9d;
 }
-
 footer .social i{
   width:20px;
   margin-left: 10px;
 }
-
 #footer [class*="col-"]{
   padding:0;
 }
-
-/* regole di debug */
-
-section{
-  width:100%;
-}
-
-/* [class*="col-"]{
-  border:1px solid black;
-} */

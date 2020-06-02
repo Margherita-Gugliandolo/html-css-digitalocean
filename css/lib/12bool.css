@@ -22,6 +22,10 @@
   display:none;
 }
 
+#sezione-loghi .logo-partner{
+  width:100%;
+}
+
 .col-xs-5 #hamburger{
   display: block;
 }
